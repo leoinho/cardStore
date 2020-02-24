@@ -1,0 +1,35 @@
+.container{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: initial;
+
+    @media screen and (max-width: 600px) {
+        height: auto;
+       //justify-self: start;
+       align-items: flex-start;
+        flex-direction: column;
+    }
+
+    div{
+
+        color: white;
+        //background-color: #fff;
+
+        @media screen and (max-width: 600px) {
+            justify-content: flex-start;
+            display: flex;
+        }
+    }
+    ul{
+        list-style-type: none;
+
+        img{
+           
+        }
+    }
+    
+}

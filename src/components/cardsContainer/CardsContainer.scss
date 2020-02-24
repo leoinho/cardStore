@@ -1,0 +1,46 @@
+.container{
+    width: 330px;
+    height: 400px;
+    // background: blueviolet;
+    margin: 35px;
+    border: solid 1px #4B0082;
+    border-radius: 10px;
+    box-shadow: 2px 2px #4B0082;
+
+    @media screen and (max-width: 600px) {
+        margin: auto;
+        margin-bottom: 50px;
+        width: 270px;
+    }
+}
+
+.imagem{
+    width: 100%;
+    height: 67%;
+    // background-color: darkviolet;
+}
+
+.texto{
+    width: 100%;
+    height: 23%;
+    display: flex;
+
+    p{
+        margin-top: 30px;
+
+    }
+}
+
+.botao{
+    width: 65%;
+    margin: auto;
+    margin-top: 4px;
+    height: 8%;
+    border: solid 1px #4B0082;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

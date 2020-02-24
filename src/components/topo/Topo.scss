@@ -1,0 +1,15 @@
+h1{
+    font-size: 110px;
+    color: #fff;
+    text-shadow: 9px 2px 0px #4B0082;
+    margin: 0;
+    
+    @media screen and (max-width: 600px) {
+        font-size: 60px;
+    }
+}
+
+.topo{
+    width: 100%;
+    margin-bottom: 61px;
+}
