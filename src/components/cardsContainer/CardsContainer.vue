@@ -6,7 +6,14 @@
     <div class="texto">
         <p>League of Legends (BR) | RP - Riot Points | Riot Games</p>
     </div>
-    <div class="botao">Compar</div>
+    <div class="botao">
+      <a mp-mode="dftl" 
+      :href="href"
+       name="MP-payButton" class='blue-ar-l-rn-none'>
+       Comprar
+       </a>
+    </div>
+    <button v-on:click="greet">teste</button>
   </div>
 </template>
 
