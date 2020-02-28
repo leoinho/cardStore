@@ -21,6 +21,8 @@ Vue.use(VueParticles)
 Vue.config.productionTip = false;
 
 const router = new VueRouter({
+  mode: 'history',
+  hash: false,
   routes: [
     { path: '/', component: Home },
     { path: '/sucesso', component: Sucesso }
