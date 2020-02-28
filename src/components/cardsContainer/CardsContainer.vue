@@ -1,7 +1,7 @@
 <template>
   <div class="container"> 
     <div class="imagem">
-        <img src="@/assets/lol.jpg" alt="">
+        <img v-prlx src="@/assets/lol.jpg" alt="">
     </div>
     <div class="texto">
         <p>League of Legends (BR) | RP - Riot Points | Riot Games</p>

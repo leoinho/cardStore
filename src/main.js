@@ -9,6 +9,11 @@ import VueParticles from 'vue-particles'
 import VueCarousel from '@chenfengyuan/vue-carousel';
 import VueRouter from 'vue-router'
 
+import VuePrlx from 'vue-prlx'
+Vue.use(VuePrlx);
+import { VuePrlxDirective } from 'vue-prlx'
+Vue.directive('prlx', VuePrlxDirective);
+
 Vue.use(VueRouter)
 Vue.use(VueCarousel);
 Vue.use(VueParticles)
