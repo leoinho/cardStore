@@ -787,12 +787,31 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.27.tgz#19706345859fc46adf3684ed01d11b40903b87e9"
   integrity sha512-97GaByGaXDGMkzcJX7VmR/jRJd8h1mfhtA7RsxDBN61GnWE/PPCZhOdwG/8OZYktiRUF0CvFOr+VgRkJrt6TWg==
 
+"@fortawesome/fontawesome-common-types@^0.2.28":
+  version "0.2.28"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.28.tgz#1091bdfe63b3f139441e9cba27aa022bff97d8b2"
+  integrity sha512-gtis2/5yLdfI6n0ia0jH7NJs5i/Z/8M/ZbQL6jXQhCthEOe5Cr5NcQPhgTvFxNOtURE03/ZqUcEskdn2M+QaBg==
+
 "@fortawesome/fontawesome-svg-core@^1.2.27":
   version "1.2.27"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.27.tgz#e4db8e3be81a40988213507c3e3d0c158a6641a3"
   integrity sha512-sOD3DKynocnHYpuw2sLPnTunDj7rLk91LYhi2axUYwuGe9cPCw7Bsu9EWtVdNJP+IYgTCZIbyARKXuy5K/nv+Q==
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.27"
+
+"@fortawesome/free-brands-svg-icons@^5.12.1":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.13.0.tgz#e79de73ba6555055204828dca9c0691e7ce5242b"
+  integrity sha512-/6xXiJFCMEQxqxXbL0FPJpwq5Cv6MRrjsbJEmH/t5vOvB4dILDpnY0f7zZSlA8+TG7jwlt12miF/yZpZkykucA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
+
+"@fortawesome/free-regular-svg-icons@^5.12.1":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.13.0.tgz#925a13d8bdda0678f71551828cac80ab47b8150c"
+  integrity sha512-70FAyiS5j+ANYD4dh9NGowTorNDnyvQHHpCM7FpnF7GxtDjBUCKdrFqCPzesEIpNDFNd+La3vex+jDk4nnUfpA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
 
 "@fortawesome/free-solid-svg-icons@^5.12.1":
   version "5.12.1"
@@ -1321,9 +1340,9 @@ acorn-walk@^7.0.0:
   integrity sha512-wdlPY2tm/9XBr7QkKlq0WQVgiuGTX6YWPyRyBviSoScBuLfTVQhvwg6wJ369GJ/1nPfTLMfnrFIfjqVg6d+jQQ==
 
 acorn@^6.0.7, acorn@^6.2.1:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
-  integrity sha512-gac8OEcQ2Li1dxIEWGZzsp2BitJxwkwcOm0zHAJLcPJaVvm58FRnk6RkuLRpU1EujipU2ZFODv2P9DLMfnV8mw==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
@@ -8374,6 +8393,16 @@ vue-particles@^1.0.9:
   dependencies:
     particles.js "^2.0.0"
     vue "^2.2.6"
+
+vue-prlx@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/vue-prlx/-/vue-prlx-1.3.4.tgz#b8aac82d5469be2524daf396b034526b8b2e34ba"
+  integrity sha512-5+tuwSlwZDyTUGD6YTg9XW4F4NRgtkpUTdGjXEaYA8SF6hfRKRumDiAIcJ4ZcAt02JjVuPFJGwrRWS/TpLnHmw==
+
+vue-router@^3.1.5:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.1.6.tgz#45f5a3a3843e31702c061dd829393554e4328f89"
+  integrity sha512-GYhn2ynaZlysZMkFE5oCHRUTqE8BWs/a9YbKpNLi0i7xD6KG1EzDqpHQmv1F5gXjr8kL5iIVS8EOtRaVUEXTqA==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
